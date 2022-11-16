@@ -1,0 +1,61 @@
+Body {
+    color: #ffffff;
+
+}
+
+.wrapper {
+    width: 100%;
+    height: 117px;
+    background: #0C0D21;
+}
+
+.nav-arrows {
+    
+    padding-right: 600px;
+}
+
+.user {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.info {
+    margin-right: 234px;
+    position: absolute;
+    width: 295.91px;
+    height: 57px;
+    top: 30px;
+    text-align: right;
+    line-height: 4px;
+}
+
+.info span {
+    color: #818694;
+}
+
+.pfp-circle {
+    position: absolute;
+    border: 1px solid #D1D5E0;
+    border-radius: 50%;
+    width: 57px;
+    height: 57px;
+    margin-right: 152px;
+    top: 29px;
+}
+
+.bell-icon {
+    position: relative;
+    content: url("./icons/bell.svg");
+    margin-top: 52px;
+    margin-right: 111px;
+    overflow: hidden;
+}
+
+.notification-icon {
+    position: absolute;
+    content: url("./icons/notf.svg");
+    z-index: 10;
+    top: 42px;
+    right: 99.09px;
+}

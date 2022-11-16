@@ -1,0 +1,193 @@
+.sidebar {
+    position: absolute;
+    background-color: #090A1C;
+    width: 300px;
+    height: 150vh;
+    padding: 0;
+    left: 0;
+    top: 0;
+}
+
+.logo {
+    position: absolute;
+    width: 172px;
+    height: 83px;
+    left: 65px;
+    top: 69px;
+    background: url("./logo.png");
+}
+
+.left-menu {
+    position: absolute;
+    width: 212.46px;
+    height: 385px;
+    top: 195px;
+}
+
+.left-menu ul {
+    overflow: hidden;
+}
+
+.left-menu li {
+    font-size: 16px;
+    list-style-type: none;
+    line-height: 26px;
+    letter-spacing: 0.015em;
+    font-weight: 400;
+    padding-bottom: 13px;
+    margin-left: 63px;
+}
+
+
+.left-menu a {
+    text-decoration: none;
+    color: #D1D5E0;
+    font-weight: 400;
+    margin-left: -2px;
+}
+
+.title {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 41px;
+    width: 181.46px;
+    background: rgba(175, 175, 175, 0.1);
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.title h6 {
+    margin-left: 24px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+}
+
+.title2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 41px;
+    width: 151.46px;
+    margin-top: -4px;
+    background: rgba(175, 175, 175, 0.1);
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.title2 h6 {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    margin-left: 26px;
+}
+
+/*ICONS*/
+
+#games::before {
+    position: absolute;
+    margin-left: -40px;
+    margin-top: -1px;
+    content: url("./icons/games.svg");
+}
+
+#tourneys::before {
+    position: absolute;
+    margin-left: -40px;
+    margin-top: -1px;
+    content: url("./icons/tournament.svg");
+}
+
+#teams::before {
+    position: absolute;
+    margin-left: -40px;
+    margin-top: 2px;
+    content: url("./icons/teams.svg");
+}
+
+#news::before {
+    position: absolute;
+    margin-left: -36px;
+    margin-top: 0px;
+    content: url("./icons/news.svg");
+}
+
+#partners::before {
+    position: absolute;
+    margin-left: -37px;
+    margin-top: -1px;
+    content: url("./icons/partners.svg");
+}
+
+#about::before {
+    position: absolute;
+    margin-left: -40px;
+    margin-top: 2px;
+    content: url("./icons/about.svg");
+}
+
+#help::before {
+    position: absolute;
+    margin-left: -37px;
+    margin-top: 2px;
+    content: url("./icons/help.svg");
+}
+
+/*CREATE BUTTON & SOCIALS*/
+
+.create-button {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 13px 40px;
+    gap: 10px;
+}
+
+.create {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 146px;
+    height: 41px;
+    left: 78px;
+    top: 873px;
+    border: 2px solid purple;
+    border-radius: 25px;
+    background-color: transparent;
+}
+
+.create p {
+    color: #F1F5FF;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 15px;
+    line-height: 15px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.socials {
+    position: absolute;
+    top: 945px;
+    left: 93px;
+}
+
+.socials span {
+    letter-spacing: 7px;
+}
+
+@media screen and (max-width:1680px) {
+    .sidebar {
+        height: 200vh;
+    }
+}
+
+@media screen and (max-width:1400px) {
+    .sidebar {
+        height: 250vh;
+    }
+}

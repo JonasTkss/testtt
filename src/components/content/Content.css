@@ -1,0 +1,93 @@
+.content-wrapper {
+    width: 80%;
+    margin-left: 15%;
+    height: 120vh;
+    display: flex;
+}
+
+.first-section {
+    position: absolute;
+    width: 460px;
+    height: 94px;
+    margin-left: 115px;
+    margin-top: -10px;
+}
+
+.first-title {
+    width: 137px;
+    height: 38px;
+}
+
+.first-title h1 {
+    font-size: 34px;
+    line-height: 38px;
+    font-weight: 700;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.hashtagbutton ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 8px 25px;
+    gap: 55px;
+    border-radius: 25px;
+}
+
+.hashtagbutton li {
+    color: #D1D5E0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.list-item {
+    background-color: transparent;
+    border-radius: 25px;
+}
+
+.list-item.clicked {
+    background: #1B1C30;
+}
+
+
+/*TITLE & GRID*/
+
+.second-title {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 39px;
+}
+
+.game-display {
+    display: grid;
+    max-width: 1140px;
+    height: 700px;
+    margin-top: 325px;
+    margin-left: 114px;
+    grid-template-columns: repeat(4, 2fr);
+    gap: 107px 30px;
+}
+
+@media screen and (max-width:1680px) {
+    .game-display {
+        grid-template-columns: repeat(3, 2fr);
+        gap: 200px 30px;
+    }
+}
+
+@media screen and (max-width:1400px) {
+    .first-section {
+        margin-left: 150px;
+    }
+    .game-display {
+        grid-template-columns: repeat(2, 2fr);
+        margin-left: 150px;
+        gap: 200px 30px;
+    }
+}
